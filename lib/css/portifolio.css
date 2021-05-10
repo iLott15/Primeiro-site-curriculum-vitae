@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url("C:/Users/ivanl/Documents/IvanLott/siteteste/fonts");
+    font-size: 1em;
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url("C:/Users/ivanl/Documents/IvanLott/siteteste/fonts");
+    font-size: 1em;
+}
+header {
+    height: 260px;
+    width: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 2;
+}
+header .container p1{
+    float: right;
+    margin-top: 10px;
+    margin-right: 450px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(255, 215, 0);
+    border-bottom: silver solid 2px;
+}
+header .container p2{
+    float: right;
+    margin-top: 10px;
+    margin-right: 430px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(218, 165, 32);
+    border-bottom: silver solid 2px;
+}
+header .container img{
+    float: right;
+    margin-top: 10px;
+    margin-right: 510px;
+    border-radius: 10px;
+    border-top: silver solid 2px;
+    border-right: silver solid 2px;
+    border-bottom: silver solid 2px;
+    border-left: silver solid 2px;
+}
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+#banner {
+    height: auto;
+    width: auto;
+    position: absolute;
+    background-color: rgb(128, 128, 128);
+    z-index: 3px;
+}
+#banner h1 {
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 640px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    border-bottom: silver solid 2px;
+}
+#menu .infobutton{
+    margin-top: 50px;
+    float: right;
+    margin-right: -195px;
+}
+#menu li{
+    margin-top: 5px;
+    display: block;
+    font-family: 'Open-Sans';
+    font-size: 18px;
+    font-style: italic;
+    border-bottom: silver solid 2px;
+}
+#social-list {
+    position: relative;
+    padding-left: 570px;
+}
+#social-list li {
+    display: inline-block;
+}
+#social-list a {
+    display: block;
+    border: black 2px solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 18px;
+    text-align: center;
+}
+#social-list i {
+    font-size: 22px;
+    margin: 2px;    
+    color: black;
+}
+#formacao h2{
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 650px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border-bottom: silver solid 2px;
+}
+#expprof h3{
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 640px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border-bottom: silver solid 2px;
+}
+#formacao p3,p4,p5,p6{
+    padding-left: 360px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 340px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+#expprof p7{
+    padding-left: 360px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 340px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+#cursos h4{
+    float: right;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 520px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border-bottom: silver solid 2px;
+}
+#cursos p8{
+    padding-left: 360px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 580px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+#passatempo h5{
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 630px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border-bottom: silver solid 2px;
+}
+#passatempo p9{
+    padding-left: 360px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+#work h6{
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 630px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border-bottom: silver solid 2px;
+}
+#carrossel .carousel {
+    margin-top: 25px;
+}
+#carrossel .carousel h7{
+    color:black;
+    font-size: 18px;
+    font-family: "OpenSans";
+    font-weight: bold;
+    margin-top: 10px;
+}
+#carrossel .carousel .item-inner {
+    padding: 5px;
+}
+#carrossel .carousel .item-inner img {
+    margin-top: 10px;
+    width: 100%;
+}
+footer {
+   margin-top: 20px;
+   position: relative;
+   bottom: -2098px;
+   background-color: rgba(0, 0, 0, 0.9);
+   color: #FFF;
+   width: 100%;
+   height: 150px;    
+   text-align: center;
+}
+#profile-footer {
+    margin-top: 5px;
+    margin-bottom: 32px;
+    font-family: "OpenSans";
+    font-style: italic;
+    font-size: 24px;
+    color: silver;
+    border-bottom: silver solid 2px;
+}
+#social-list-footer {
+    box-align: center;
+}
+#social-list-footer li {
+    display: inline-block;
+}
+#social-list-footer a {
+    display: block;
+    border: silver 2px solid;
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    text-align: center;
+}
+#social-list-footer i {
+    font-size: 22px;
+    margin: 3px;    
+    color: silver;
+}
